@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="https://cdn.tailwindcss.com">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kyle</title>
@@ -79,10 +78,11 @@
     <p class="text-sm text-gray-400">&copy; 2025 Kyle. All rights reserved.</p>
   </footer>
 
-  <!-- Navbar toggle logic langsung di sini -->
+  <!-- Navbar toggle logic -->
   <script>
     document.getElementById('menu-toggle').addEventListener('click', function () {
-      document.getElementById('mobile-menu').classList.toggle('hidden');
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
     });
   </script>
 
