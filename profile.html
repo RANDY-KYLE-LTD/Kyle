@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile - Kyle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-pink-500">Your Profile</h1>
+    <a href="index.html" class="text-sm hover:underline text-gray-300">← Home</a>
+  </header>
+
+  <!-- Profile Section -->
+  <section class="max-w-2xl mx-auto p-6">
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-semibold mb-4">Account Info</h2>
+
+      <div class="mb-4">
+        <label class="block text-sm mb-1">Username</label>
+        <input type="text" value="kyle user" class="w-full p-3 rounded bg-gray-700 text-white" disabled />
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm mb-1">Email</label>
+        <input type="email" value="kyle@example.com" class="w-full p-3 rounded bg-gray-700 text-white" disabled />
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-between gap-4 mt-6">
+        <button class="bg-pink-600 hover:bg-pink-500 px-6 py-3 rounded font-semibold w-full">Edit Profile</button>
+        <button class="bg-gray-700 hover:bg-gray-600 px-6 py-3 rounded font-semibold w-full">Logout</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
