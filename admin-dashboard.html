@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.tailwindcss.com">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard - Kyle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-pink-500">Admin Dashboard</h1>
+    <a href="index.html" class="text-sm hover:underline text-gray-300">← Back to Site</a>
+  </header>
+
+  <!-- Content -->
+  <main class="p-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <!-- Users Card -->
+      <div class="bg-gray-800 rounded-lg p-6 shadow">
+        <h2 class="text-2xl font-semibold mb-4">Users</h2>
+        <ul class="space-y-2 text-sm">
+          <li class="bg-gray-700 p-3 rounded">kyleuser - kyle@example.com</li>
+          <li class="bg-gray-700 p-3 rounded">demo_user - demo@mail.com</li>
+        </ul>
+      </div>
+
+      <!-- Games Card -->
+      <div class="bg-gray-800 rounded-lg p-6 shadow">
+        <h2 class="text-2xl font-semibold mb-4">Games</h2>
+        <ul class="space-y-2 text-sm">
+          <li class="bg-gray-700 p-3 rounded flex justify-between items-center">
+            Game Title 1
+            <button class="text-red-400 hover:underline text-xs">Delete</button>
+          </li>
+          <li class="bg-gray-700 p-3 rounded flex justify-between items-center">
+            Game Title 2
+            <button class="text-red-400 hover:underline text-xs">Delete</button>
+          </li>
+        </ul>
+        <button class="mt-4 bg-pink-600 hover:bg-pink-500 px-4 py-2 rounded">Add New Game</button>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
